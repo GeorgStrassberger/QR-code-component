@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | QR code component</title>
+  <link href="https://fonts.cdnfonts.com/css/outfit" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #D5E1EF;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100dvh;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      width: 320px;
+      height: 499px;
+      padding: 16px 16px 40px 16px;
+      border-radius: 20px;
+      background-color: #FFFFFF;
+    }
+
+    .card-image {
+      border-radius: 10px;
+    }
+
+    .card-content {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding-inline: 16px;
+      text-align: center;
+    }
+
+    .card-title {
+      color: #1F314F;
+      font-size: 22px;
+      font-weight: bold;
+      font-family: 'Outfit', sans-serif;
+      line-height: 120%;
+      letter-spacing: 0px;
+    }
+
+    .card-text {
+      color: #68778D;
+      font-size: 15px;
+      font-weight: normal;
+      font-family: 'Outfit', sans-serif;
+      line-height: 140%;
+      letter-spacing: 0.2px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <img class="card-image" src="./images/image-qr-code.png" alt="">
+    <div class="card-content">
+      <h2 class="card-title">Improve your front-end skills by building projects</h2>
+      <p class="card-text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</ü>
+    </div>
+  </div>
+
+</body>
+
+</html>
